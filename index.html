@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andressa Lima - Desenvolvedora Front-End e Back-End</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">AL</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Hello✨,</p>
+          <h1>I am Andressa Lima</h1>
+          <h2>Front-End and Back-End Web Developer</h2>
+          <div class="efeito">
+            <p>Coding is <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+          </div>  
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/andressa-lima-b18988253/" class="outer-shadow" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/andressa-l" class="outer-shadow" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:gregorio.andressa.lima@gmail.com" class="outer-shadow" target="_blank"><i class="far fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/foto-perfil.png" alt="foto do perfil de Andressa" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/segunda-foto.jpg" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Andressa Lima sou acadêmica em Engenharia de Software, uma desenvolvedora com conhecimentos Front-End e Back-End em
+              evolução!</strong>
+              Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+          </p>
+
+          <p>
+           Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 
+          </p>
+
+          <p>
+            Ah, gosto de jogos, filmes, séries, animes e outras nerdices. 💜💚
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+          <p>| Ferramentas e tecnologias com as quais trabalhei e tenho interesse</p>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>Uma linguagem de programação que permite criar conteúdo dinâmico e interativo em páginas web, aplicativos web e móveis, servidores web e jogos.</p>
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Uma linguagem de marcação que permite estruturar e dar significado ao conteúdo web, como textos, imagens, vídeos, formulários, etc.</p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>O Cascading Style Sheets (CSS) é um mecanismo para adicionar estilos uma página web, permite aplicar estilo ao conteúdo das linguagens de marcação, como cores, fontes, layouts, animações, etc.</p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>Uma plataforma online que permite hospedar, compartilhar e colaborar em projetos de software usando o sistema de controle de versão Git.</p>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>Um sistema de controle de versão distribuído que permite gerenciar e sincronizar as alterações no código entre vários desenvolvedores.</p>
+        </div>
+
+        <div class="informacoes java"> 
+          <div class="logo">
+            <i class="devicon devicon-java-plain" id="java"></i>
+          </div>
+          <h3>Java</h3>
+          <p>Uma linguagem de programação orientada a objetos, compilada e multiplataforma, que permite criar aplicações para diversos tipos de dispositivos, como desktops, servidores, celulares, smart TVs, etc.</p>
+        </div>
+
+        <div class="informacoes react"> <!-- colocar classe no css -->
+          <div class="logo">
+            <i class="devicon devicon-react-plain" id="react"></i> <!-- colocar id no css -->
+          </div>
+          <h3>React</h3>
+          <p>Uma biblioteca JavaScript para criar interfaces de usuário reativas e componentizadas para aplicações web e móveis.</p>
+        </div>
+
+        <div class="informacoes mysql"> 
+          <div class="logo">
+            <i class="devicon devicon-mysql-plain" id="mysql"></i> 
+          </div>
+          <h3>MySQL</h3>
+          <p>Um sistema de gerenciamento de banco de dados relacional de código aberto, que permite armazenar e manipular dados usando a linguagem SQL.</p>
+        </div>
+
+        <div class="informacoes angular"> 
+          <div class="logo">
+            <i class="devicon devicon-angularjs-plain" id="angular"></i> 
+          </div>
+          <h3>AngularJS</h3>
+          <p>Um framework JavaScript para criar aplicações web e móveis baseadas em componentes, usando TypeScript como linguagem principal.</p>
+        </div>
+
+        <div class="informacoes python">
+          <div class="logo">
+            <i class="devicon devicon-python-plain" id="python"></i>
+          </div>
+          <h3>Python</h3>
+          <p>Uma linguagem de programação interpretada, multiplataforma e multiparadigma, que permite criar aplicações para diversas áreas, como ciência de dados, inteligência artificial, automação, desenvolvimento web, etc.</p>
+        </div>
+
+        <div class="informacoes csharp">
+          <div class="logo">
+            <i class="devicon devicon-csharp-plain" id="csharp"></i>
+          </div>
+          <h3>C#</h3>
+          <p>Uma linguagem de programação orientada a objetos, compilada e multiplataforma, que permite criar aplicações para diversas plataformas, como Windows, Linux, Android, iOS, etc.</p>
+        </div>
+
+        <div class="informacoes postgresql"> 
+          <div class="logo">
+            <i class="devicon devicon-postgresql-plain" id="postgresql"></i> 
+          </div>
+          <h3>PostgreSQL</h3>
+          <p>Um sistema de gerenciamento de banco de dados relacional e objeto-relacional de código aberto, que permite armazenar e manipular dados usando a linguagem SQL e outras extensões.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+          <p>| Principais projetos com os quais trabalhei, para saber mais ou encontrar outros projetos: <a href="https://github.com/andressa-l" target="_blank"><span>Acessar GitHub</span></a></p>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="https://andressa-l.github.io/mini-portfolio-andressa/" target="_blank">
+            <img src="./src/imagens/tela.gif" alt="Nome do projeto" />
+            <h3>Mini Portfólio</h3>
+            <div class="informacoes-projeto">          
+              <p>Atuei com HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://andressa-l.github.io/huddle-landing-page/" target="_blank">
+            <img src="./src/imagens/huddle-landing-page.gif" alt="Nome do projeto" />
+            <h3>Huddle Landing Page</h3>
+            <div class="informacoes-projeto">          
+              <p>Construção de página de destino Huddle com HTML e CSS Flexbox e Grid</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>      
+          </a>          
+        </div>
+
+        <div class="projeto">     
+          <a href="https://andressa-l.github.io/nft-card-initial/" target="_blank">
+            <img src="./src/imagens/nft-card.gif" alt="Nome do projeto" />
+            <h3>NFT Card Inicial</h3>
+            <div class="informacoes-projeto">
+              <p>Nessa proposta eu aprendi sobre HTML e CSS flexbox.</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>   
+        </div>
+
+        <div class="projeto">
+          <a href="https://andressa-l.github.io/web-design-responsive-survey-form/" target="_blank">
+            <img src="./src/imagens/formulario-de-pesquisa.gif" alt="Nome do projeto" />
+            <h3>Formulário de Pesquisa</h3>
+            <div class="informacoes-projeto">
+              <p>Web Design Responsive</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Log in! ✨</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/andressa-lima-b18988253/" class="outer-shadow" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/andressa-l" class="outer-shadow" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:gregorio.andressa.lima@gmail.com" class="outer-shadow" target="_blank"><i class="far fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="src/js/index.js"></script>
+</body>
+
+</html>
